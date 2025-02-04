@@ -43,6 +43,14 @@ Starting on Monday so you will have the weekend to resolve the dependency update
 }
 ```
 
+##### Business Hours
+
+```json
+{
+  "extends": ["github>alma-oss/renovate-config:scheduleWeeklyBusinessHours"]
+}
+```
+
 ## 🙌 Contributing
 
 We're always looking for contributors to help us fix bugs, build new features,
