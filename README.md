@@ -65,6 +65,14 @@ This is most useful for two weeks sprints.
 }
 ```
 
+##### Business Hours
+
+```json
+{
+  "extends": ["github>alma-oss/renovate-config:scheduleEveryTwoWeeksBusinessHours"]
+}
+```
+
 ## 🙌 Contributing
 
 We're always looking for contributors to help us fix bugs, build new features,
