@@ -91,6 +91,14 @@ This is most useful for two weeks sprints.
 }
 ```
 
+#### All Development Dependencies
+
+```json
+{
+  "extends": ["github>alma-oss/renovate-config:groupAllDevDependencies"]
+}
+```
+
 ## 🙌 Contributing
 
 We're always looking for contributors to help us fix bugs, build new features,
