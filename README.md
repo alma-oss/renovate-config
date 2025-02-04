@@ -4,6 +4,11 @@
 
 For more see [Renovate Docs][renovate-config-presets].
 
+> [!NOTE]
+> Renovate has been deprecating npm-based presets in favor of repository hosting presets.
+> This repository is migrated [`@lmc-eu/renovate-config` package][renovate-npm-package] which is now deprecated.
+> [Original source][renovate-package-source] is available at [Code Quality Tools repository][code-quality-tools].
+
 ## 🚀 Usage
 
 Enable Renovate in your repository and just `extends` in `.renovaterc.json`.
@@ -109,7 +114,10 @@ check out our [Contributing Guide][contributing]! 👀
 
 See the [LICENSE][license] file for information.
 
+[code-quality-tools]: https://github.com/lmc-eu/code-quality-tools/
 [contributing]: ./CONTRIBUTING.md
 [license]: ./LICENSE.md
 [renovate-config-presets]: https://docs.renovatebot.com/config-presets/
 [renovate-local-presets]: https://docs.renovatebot.com/config-presets/#local-presets
+[renovate-npm-package]: https://www.npmjs.com/package/@lmc-eu/renovate-config
+[renovate-package-source]: https://github.com/lmc-eu/code-quality-tools/tree/main/packages/renovate-config
