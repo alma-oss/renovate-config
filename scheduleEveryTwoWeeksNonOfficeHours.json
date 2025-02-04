@@ -1,0 +1,6 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "schedule": [
+    "after 10pm and before 7am on the 2nd and 4th day instance on Monday"
+  ]
+}

@@ -51,6 +51,20 @@ Starting on Monday so you will have the weekend to resolve the dependency update
 }
 ```
 
+#### Every Two Weeks
+
+Starting on Monday on the 2nd and 4th instance so you will have 2 weeks to resolve the dependency updates.
+
+This is most useful for two weeks sprints.
+
+##### Non-office Hours
+
+```json
+{
+  "extends": ["github>alma-oss/renovate-config:scheduleEveryTwoWeeksNonOfficeHours"]
+}
+```
+
 ## 🙌 Contributing
 
 We're always looking for contributors to help us fix bugs, build new features,
