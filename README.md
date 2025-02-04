@@ -83,6 +83,14 @@ This is most useful for two weeks sprints.
 }
 ```
 
+#### Non-Major Production Dependencies
+
+```json
+{
+  "extends": ["github>alma-oss/renovate-config:groupNonMajorProdDependencies"]
+}
+```
+
 ## 🙌 Contributing
 
 We're always looking for contributors to help us fix bugs, build new features,
