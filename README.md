@@ -4,7 +4,8 @@
 
 For more see [Renovate Docs][renovate-config-presets].
 
-> [!NOTE] Renovate has been deprecating npm-based presets in favor of
+> [!NOTE]
+> Renovate has been deprecating npm-based presets in favor of
 > repository hosting presets. This repository is migrated
 > [`@lmc-eu/renovate-config` package][renovate-npm-package] which is now
 > deprecated. [Original source][renovate-package-source] is available at [Code
