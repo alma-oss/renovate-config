@@ -4,10 +4,11 @@
 
 For more see [Renovate Docs][renovate-config-presets].
 
-> [!NOTE]
-> Renovate has been deprecating npm-based presets in favor of repository hosting presets.
-> This repository is migrated [`@lmc-eu/renovate-config` package][renovate-npm-package] which is now deprecated.
-> [Original source][renovate-package-source] is available at [Code Quality Tools repository][code-quality-tools].
+> [!NOTE] Renovate has been deprecating npm-based presets in favor of
+> repository hosting presets. This repository is migrated
+> [`@lmc-eu/renovate-config` package][renovate-npm-package] which is now
+> deprecated. [Original source][renovate-package-source] is available at [Code
+> Quality Tools repository][code-quality-tools].
 
 ## 🚀 Usage
 
@@ -20,7 +21,8 @@ Enable Renovate in your repository and just `extends` in `.renovaterc.json`.
 }
 ```
 
-[You can use][renovate-local-presets] `local` instead of `github` if you are on the same platform.
+[You can use][renovate-local-presets] `local` instead of `github` if you are on
+the same platform.
 
 ## 🎛️ Presets
 
@@ -38,7 +40,8 @@ Default preset
 
 #### Weekly
 
-Starting on Monday so you will have the weekend to resolve the dependency updates.
+Starting on Monday so you will have the weekend to resolve the dependency
+updates.
 
 ##### Non-office Hours
 
@@ -58,7 +61,8 @@ Starting on Monday so you will have the weekend to resolve the dependency update
 
 #### Every Two Weeks
 
-Starting on Monday on the 2nd and 4th instance so you will have 2 weeks to resolve the dependency updates.
+Starting on Monday on the 2nd and 4th instance so you will have 2 weeks to
+resolve the dependency updates.
 
 This is most useful for two weeks sprints.
 
@@ -66,7 +70,9 @@ This is most useful for two weeks sprints.
 
 ```json
 {
-  "extends": ["github>alma-oss/renovate-config:scheduleEveryTwoWeeksNonOfficeHours"]
+  "extends": [
+    "github>alma-oss/renovate-config:scheduleEveryTwoWeeksNonOfficeHours"
+  ]
 }
 ```
 
@@ -74,7 +80,9 @@ This is most useful for two weeks sprints.
 
 ```json
 {
-  "extends": ["github>alma-oss/renovate-config:scheduleEveryTwoWeeksBusinessHours"]
+  "extends": [
+    "github>alma-oss/renovate-config:scheduleEveryTwoWeeksBusinessHours"
+  ]
 }
 ```
 
