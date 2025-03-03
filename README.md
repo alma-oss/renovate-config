@@ -89,11 +89,14 @@ This is most useful for two weeks sprints.
 
 ### Group
 
+Group presets are [parametrized][renovate-preset-parameters].
+You can pass a matched package manager to which the preset will be applied.
+
 #### Major Production Dependencies
 
 ```json
 {
-  "extends": ["github>alma-oss/renovate-config:groupMajorProdDependencies"]
+  "extends": ["github>alma-oss/renovate-config:groupMajorProdDependencies(npm)"]
 }
 ```
 
@@ -101,7 +104,7 @@ This is most useful for two weeks sprints.
 
 ```json
 {
-  "extends": ["github>alma-oss/renovate-config:groupNonMajorProdDependencies"]
+  "extends": ["github>alma-oss/renovate-config:groupNonMajorProdDependencies(npm)"]
 }
 ```
 
@@ -109,7 +112,7 @@ This is most useful for two weeks sprints.
 
 ```json
 {
-  "extends": ["github>alma-oss/renovate-config:groupAllDevDependencies"]
+  "extends": ["github>alma-oss/renovate-config:groupAllDevDependencies(npm)"]
 }
 ```
 
@@ -130,3 +133,4 @@ See the [LICENSE][license] file for information.
 [renovate-local-presets]: https://docs.renovatebot.com/config-presets/#local-presets
 [renovate-npm-package]: https://www.npmjs.com/package/@lmc-eu/renovate-config
 [renovate-package-source]: https://github.com/lmc-eu/code-quality-tools/tree/main/packages/renovate-config
+[renovate-preset-parameters]: https://docs.renovatebot.com/config-presets/#preset-parameters

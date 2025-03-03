@@ -4,6 +4,7 @@
     {
       "groupName": "major prod dependencies",
       "groupSlug": "major-prod",
+      "matchManagers": ["{{arg0}"],
       "matchPackagePatterns": [
         "*"
       ],
