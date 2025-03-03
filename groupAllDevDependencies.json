@@ -4,6 +4,7 @@
     {
       "groupName": "all dev dependencies",
       "groupSlug": "all-dev",
+      "matchManagers": ["{{arg0}"],
       "separateMajorMinor": false,
       "matchPackagePatterns": [
         "*"
