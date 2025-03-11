@@ -4,7 +4,7 @@
     {
       "groupName": "non-major prod dependencies",
       "groupSlug": "non-major-prod",
-      "matchManagers": ["{{arg0}"],
+      "matchManagers": ["{{arg0}}"],
       "matchPackagePatterns": [
         "*"
       ],
