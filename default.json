@@ -13,5 +13,11 @@
   ],
   "branchPrefix": "dependencies/",
   "commitMessagePrefix": "deps: ",
-  "baseBranches": ["main"]
+  "baseBranches": ["main"],
+  "packageRules": [
+    {
+      "minimumReleaseAge": "7d",
+      "description": "Security: Wait at least 7 days before updating any new version"
+    }
+  ]
 }
